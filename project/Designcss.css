@@ -1,6 +1,7 @@
 header {
 background-color: black;
 color: white;
+text-align: center;
 }
 nav {
     text-align: center; 
@@ -10,12 +11,25 @@ h1{
     
 }
 h2{
-    text-align: left;
+    text-align: left; 
 }
-header{
+  
+
+
+
+
+section{
+    background-color: gray;
+    margin-left: 25%;
+    margin-right: 25%;
+font-size: 35px;
+}
+.sectionL{
+    text-align: left;
+font-size: 35px;
+}
+.sectionR{
     text-align: right;
-    font-size: 50px;
-}
-header{
-    text-align: left;
+    font-size: 35px;
+
 }
