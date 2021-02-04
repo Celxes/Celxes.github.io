@@ -19,10 +19,11 @@ h2{
 
 
 section{
-    background-color: gray;
+    background-color:black;
     margin-left: 25%;
     margin-right: 25%;
 font-size: 35px;
+
 }
 .sectionL{
     text-align: left;
@@ -31,5 +32,50 @@ font-size: 35px;
 .sectionR{
     text-align: right;
     font-size: 35px;
+    
+    
 
 }
+.box{
+  
+  
+  margin-left: 25%;
+  display: flex;
+  align-items: center;
+  
+
+}
+.width60{
+    width: 60%;
+}
+.width40{
+    width: 40%; 
+}
+.text-left{
+    text-align: left; 
+
+}
+  
+  
+ .box{
+  
+  
+        margin-left: 25%;
+        display: flex;
+        align-items: center;
+        
+        
+ }
+
+
+ .box{
+  
+  
+    margin-left: 25%;
+    display: flex;
+    align-items: center;
+    
+    
+}
+        
+      

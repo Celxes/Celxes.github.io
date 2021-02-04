@@ -18,3 +18,13 @@
             font-size: 50px;
             background-color:white;
         }
+
+
+        .box{
+  
+  
+            margin-left: 25%;
+            display: flex;
+            align-items: center;
+            
+        }
