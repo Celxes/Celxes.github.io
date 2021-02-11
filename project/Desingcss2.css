@@ -32,3 +32,12 @@ header {
         
         justify-content: space-between;
     }
+
+    a{
+        color: blue; 
+        text-decoration: none;
+    
+    }
+    a:hover{
+        color: grey; 
+    }

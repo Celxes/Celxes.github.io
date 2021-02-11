@@ -1,7 +1,7 @@
 
-    eader {
+    header {
         background-color:white ;
-        color: white;
+        color:black;
     
         }
         nav{
@@ -26,5 +26,38 @@
             margin-left: 25%;
             display: flex;
             align-items: center;
-            
+            margin-right: 25%; 
+            text-align: left;
+
+
         }
+        .box{
+  
+  
+            margin-left: 25%;
+            display: flex;
+            align-items: center;
+            margin-right: 25%; 
+            text-align: left;
+
+
+        }
+
+
+.width30{
+    width: 30%;
+
+}
+
+.width40{
+    width: 40%;
+}
+
+a{
+    color: blue; 
+    text-decoration: none;
+
+}
+a:hover{
+    color: grey; 
+}
