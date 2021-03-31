@@ -14,4 +14,8 @@ canvas{
 }
 section-canvas{
     text-align: center;
+    border-style: solid; 
+}   
+canvas{
+    border-      style: solid; 
 }
