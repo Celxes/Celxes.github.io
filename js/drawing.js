@@ -111,6 +111,7 @@ function drawCharmander(){
     draw.fillRect(0*unit,4*unit,1*unit,3*unit)
     draw.fillRect(1*unit,2*unit,1*unit,2*unit)
     draw.fillRect(2*unit,1*unit,1*unit,1*unit)
+    draw.fillRect(3*unit,1*unit,1*unit,7*unit)
 
     draw.fillStyle = '#E15241';
     draw.fillRect(3*unit,1*unit,1*unit,5*unit)
