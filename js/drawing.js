@@ -53,24 +53,31 @@ function drawCursor(){
     draw.fillRect(3*unit,3*unit,1*unit,1*unit)
     draw.fillRect(7*unit,7*unit,1*unit,1*unit)
     draw.fillRect(8*unit,8*unit,1*unit,1*unit)
-    draw.fillRect(7*unit,8*unit,1*unit,1*unit)
-    draw.fillRect(6*unit,8*unit,1*unit,1*unit)
-    draw.fillRect(5*unit,8*unit,1*unit,1*unit)
-    draw.fillRect(4*unit,8*unit,1*unit,1*unit)
-    draw.fillRect(3*unit,8*unit,1*unit,1*unit)
-    draw.fillRect(3*unit,9*unit,1*unit,1*unit)
-    draw.fillRect(3*unit,10*unit,1*unit,1*unit)
-    draw.fillRect(4*unit,10*unit,1*unit,2*unit)
-    draw.fillRect(5*unit,10*unit,1*unit,2*unit)
-    draw.fillRect(6*unit,10*unit,1*unit,2*unit)
-   draw.fillRect(7*unit,10*unit,1*unit,2*unit)
-  draw.fillRect(8*unit,10*unit,1*unit,2*unit)
+    draw.fillRect(9*unit,9*unit,1*unit,1*unit)
+    draw.fillRect(10*unit,10*unit,1*unit,1*unit)
+    draw.fillRect(7*unit,11*unit,5*unit,1*unit)
+    draw.fillRect(7*unit,12*unit,1*unit,2*unit)
+    // draw.fillRect(6*unit,8*unit,1*unit,1*unit)
+    // draw.fillRect(5*unit,8*unit,1*unit,1*unit)
+    // draw.fillRect(4*unit,8*unit,1*unit,1*unit)
+    // draw.fillRect(3*unit,8*unit,1*unit,1*unit)
+    // draw.fillRect(3*unit,9*unit,1*unit,1*unit)
+//     draw.fillRect(3*unit,10*unit,1*unit,1*unit)
+//     draw.fillRect(4*unit,10*unit,1*unit,2*unit)
+//     draw.fillRect(5*unit,10*unit,1*unit,2*unit)
+//     draw.fillRect(6*unit,10*unit,1*unit,2*unit)
+//    draw.fillRect(7*unit,10*unit,1*unit,2*unit)
+//   draw.fillRect(8*unit,10*unit,1*unit,2*unit)
 }
 
 
 
 
 function drawName(){
+    draw.fillStyle= 'black';
+    draw.save();
+    draw.translate(20*unit,25*unit,10*unit,10*unit)
+ 
     // draw.fillRect(*unit,*unit,*unit,*unit)
     // draw.fillRect(*unit,*unit,*unit,*unit)
     // draw.fillRect(*unit,*unit,*unit,*unit)
@@ -97,6 +104,7 @@ function drawName(){
     draw.fillRect(26*unit,5*unit,1*unit,1*unit)
     draw.fillRect(27*unit,6*unit,1*unit,1*unit)
     draw.fillRect(28*unit,1*unit,1*unit,7*unit)
+    draw.restore();
 }   
 
 function drawHeart(){
@@ -111,11 +119,49 @@ function drawCharmander(){
     draw.fillRect(0*unit,4*unit,1*unit,3*unit)
     draw.fillRect(1*unit,2*unit,1*unit,2*unit)
     draw.fillRect(2*unit,1*unit,1*unit,1*unit)
-    draw.fillRect(3*unit,1*unit,1*unit,7*unit)
+    draw.fillRect(3*unit,0*unit,1*unit,1*unit)
+    draw.fillRect(4*unit,1*unit,1*unit,3*unit)
+    draw.fillRect(5*unit,4*unit,1*unit,3*unit)
+    draw.fillRect(4*unit,7*unit,1*unit,2*unit)
+    draw.fillRect(5*unit,9*unit,1*unit,1*unit)
+    draw.fillRect(6*unit,10*unit,2*unit,1*unit)
+    draw.fillRect(8*unit,8*unit,1*unit,3*unit)
+    draw.fillRect(9*unit,7*unit,1*unit,1*unit)
+    draw.fillRect(10*unit,5*unit,1*unit,2*unit)
+    draw.fillRect(11*unit,3*unit,1*unit,2*unit)
+    draw.fillRect(12*unit,1*unit,1*unit,2*unit)
+    draw.fillRect(13*unit,0*unit,4*unit,1*unit)
+    draw.fillRect(17*unit,1*unit,1*unit,1*unit)
+    draw.fillRect(18*unit,2*unit,1*unit,2*unit)
+    draw.fillRect(19*unit,4*unit,1*unit,1*unit)
+    draw.fillRect(20*unit,5*unit,1*unit,3*unit)
+    draw.fillRect(19*unit,8*unit,1*unit,1*unit)
+    draw.fillRect(18*unit,8*unit,2*unit,1*unit)
+    draw.fillRect(15*unit,9*unit,3*unit,1*unit)
+    draw.fillRect(15*unit,9*unit,3*unit,1*unit)
+    draw.fillRect(15*unit,9*unit,3*unit,1*unit)
+    draw.fillRect(16*unit,10*unit,1*unit,2*unit)
+    draw.fillRect(17*unit,12*unit,1*unit,1*unit)
+    draw.fillRect(14*unit,13*unit,3*unit,1*unit)
+    draw.fillRect(15*unit,12*unit,1*unit,1*unit)
+    draw.fillRect(11*unit,14*unit,3*unit,1*unit)
+    draw.fillRect(12*unit,15*unit,1*unit,1*unit)
+    draw.fillRect(9*unit,16*unit,3*unit,1*unit)
+    draw.fillRect(8*unit,13*unit,1*unit,4*unit)
+    draw.fillRect(9*unit,14*unit,1*unit,1*unit)
+    draw.fillRect(7*unit,13*unit,1*unit,1*unit)
+    draw.fillRect(7*unit,10*unit,1*unit,3*unit)
+    draw.fillRect(5*unit,13*unit,2*unit,1*unit)
+    draw.fillRect(4*unit,12*unit,1*unit,1*unit)
+    draw.fillRect(3*unit,10*unit,1*unit,2*unit)
+    draw.fillRect(2*unit,7*unit,1*unit,3*unit)
+    draw.fillRect(1*unit,7*unit,1*unit,1*unit)
+    
+
 
     draw.fillStyle = '#E15241';
-    draw.fillRect(3*unit,1*unit,1*unit,5*unit)
-    draw.fillRect(4*unit,4*unit,1*unit,3*unit)
+    
+    
 
 
 }
