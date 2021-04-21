@@ -76,7 +76,9 @@ function drawCursor(){
 function drawName(){
     draw.fillStyle= 'black';
     draw.save();
-    draw.translate(20*unit,25*unit,10*unit,10*unit)
+    draw.translate(20*unit,25*unit)
+    draw.scale(0.5,0.25)
+
  
     // draw.fillRect(*unit,*unit,*unit,*unit)
     // draw.fillRect(*unit,*unit,*unit,*unit)
@@ -159,12 +161,28 @@ function drawCharmander(){
     
 
 
-    draw.fillStyle = '#E15241';
+    draw.fillStyle = '#E15241';//fire
+    draw.fillRect(3*unit,8*unit,1*unit,2*unit)
+    draw.fillRect(4*unit,9*unit,1*unit,3*unit)
+    draw.fillRect(5*unit,8*unit,1*unit,3*unit)
+    draw.fillRect(6*unit,9*unit,1*unit,4*unit)
+    draw.fillRect(8*unit,10*unit,1*unit,3*unit)
+    draw.fillRect(9*unit,8*unit,1*unit,6*unit)
+    draw.fillRect(10*unit,7*unit,1*unit,9*unit)
+    draw.fillRect(11*unit,5*unit,1*unit,9*unit)
+    draw.fillRect(12*unit,3*unit,1*unit,8*unit)
+    draw.fillRect(13*unit,1*unit,1*unit,10*unit)
+    draw.fillRect(14*unit,0*unit,1*unit,11*unit)
+    
+    
+    
+    
     
     
 
 
 }
+
 
 
 
