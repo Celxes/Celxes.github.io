@@ -19,3 +19,13 @@ section-canvas{
 canvas{
     border-      style: solid; 
 }
+
+.legend{
+    display: flex;
+    justify-content: center;
+
+}
+.legend p{
+    widht: 80px;
+    font-size: 20px;
+}
