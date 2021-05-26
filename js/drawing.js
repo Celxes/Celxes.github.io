@@ -2,6 +2,9 @@ var draw
 var unit = 20;
 var x = 0;
 var y = 0;
+var scale = 1;
+
+const scaleChange = 0.25;
 // When the window is loaded, call (use) the init function. 
 
 window.onload = init;
@@ -51,14 +54,32 @@ function checkKey(e) {
     if (e.keyCode == '37') { // left arrow
         x--;
         draw.translate(-unit, 0);
-    } 
-    updateUI();
+    }
+    if (e.keyCode == '187') {
+        draw.scale(1 / scale, 1 / scale);
+        scale += 0.5;
+        draw.scale(scale, scale);
+    }
+    if (e.keyCode == '189') {
+        draw.scale(1 / scale, 1 / scale);
+        scale -= scaleChange;
+        draw.scale(scale, scale);
 
+
+    }
+    updateUI();
 }
 function updateUI() {
     document.getElementById("xTranslate").innerHTML = "X : " + x;
     document.getElementById("yTranslate").innerHTML = "Y : " + y;
+    document.getElementById("scale").innerHTML = "Scale : " + scale;
 }
+
+
+function drawBackground() {
+  draw.fillRect(0,0,unit,unit);
+}
+
 function startDrawing() {
     draw.fillRect(2 * unit, 100, 100, 500);
     draw.fillRect(200, 100, 500, 100)
@@ -231,11 +252,6 @@ function drawCharmander() {
 
 
 }
-
-
-
-
-
 
 
 
