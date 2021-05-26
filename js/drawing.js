@@ -78,6 +78,7 @@ function updateUI() {
 
 function drawBackground() {
   draw.fillRect(0,0,unit,unit);
+  draw.fillStyle="blue"
 }
 
 function startDrawing() {
