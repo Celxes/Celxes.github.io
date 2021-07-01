@@ -3,7 +3,12 @@ var unit = 20;
 var x = 0;
 var y = 0;
 var scale = 1;
-
+var characterX = 0;
+var characterY = 39*unit;
+var direction = 0;
+var isJumping = false;
+var time = 0;
+var isGoingUp = true;
 const scaleChange = 0.25;
 // When the window is loaded, call (use) the init function. 
 
@@ -55,6 +60,20 @@ function checkKey(e) {
         x--;
         draw.translate(-unit, 0);
     }
+    if (e.keyCode == '87') {
+        isJumping = true;
+        animateMario(characterX,direction, 0);
+    }
+    if (e.keyCode =='65') {
+       characterX-= 1;
+       direction = -1;
+       animateMario(characterX, direction, 1) ;
+    }
+    if (e.keyCode =='68') {
+       characterX +=1;
+       direction = 1;
+       animateMario(characterX, direction, 1) ;
+    }
     if (e.keyCode == '187') {
         draw.scale(1 / scale, 1 / scale);
         scale += 0.5;
@@ -65,10 +84,16 @@ function checkKey(e) {
         scale -= scaleChange;
         draw.scale(scale, scale);
 
-
+ 
     }
     updateUI();
 }
+
+
+
+
+
+
 function updateUI() {
     document.getElementById("xTranslate").innerHTML = "X : " + x;
     document.getElementById("yTranslate").innerHTML = "Y : " + y;
